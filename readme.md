@@ -22,6 +22,8 @@ Avoiding Explicit Tree Construction
 A traditional tree would require creating Node objects and maintaining parent-child relationships.
 This method skips that overhead by using simple string operations, making it lightweight and easy to implement.
 
+The tree pruning problem is in the segment / section and determined by the number of tabs, i.e. 2.2.2.1 [tab, tab].[tab, tab].[tab, tab].[tab]
+
 ### Use Case: Pruning a Text-Based Outline
 If you were working with structured logs, YAML-like data, or an outline-style document, this approach would allow easy removal of sections.
 
